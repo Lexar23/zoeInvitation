@@ -1,0 +1,17 @@
+[
+  {
+    "id": "familia-perez",
+    "name": "Familia Pérez",
+    "allowedGuests": 4
+  },
+  {
+    "id": "maria-lopez",
+    "name": "María López",
+    "allowedGuests": 1
+  },
+  {
+    "id": "carlos-y-ana",
+    "name": "Carlos y Ana",
+    "allowedGuests": 2
+  }
+]

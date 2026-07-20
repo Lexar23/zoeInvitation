@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color1: #f8b6cb;
+  --color2: #c1a2ff;
+  --color3: #f4d97a  ;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  color: var(--foreground);
+  background: #f8b6cb;
+}
+ 
+.transparentCard {
+  background: rgba(255, 255, 255, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.1px);
+  -webkit-backdrop-filter: blur(12.1px);
+  border: 1px solid rgba(255, 255, 255, 0.27);
+} 
+
+main {
+  min-height: 100vh;
+  max-width: 900px; 
+  margin: 0 auto; 
+  width: 100%;
+  position: relative;
+}
+.violetaColor{ 
+  background: var(--color2); 
+  aspect-ratio: 1/1;
+}
+.lazo{
+  width: 70%;
+  position: absolute;
+  top: -25px;
+  right: -20px;  
+}
