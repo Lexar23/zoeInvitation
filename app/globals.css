@@ -27,7 +27,7 @@ body {
   position: relative;
   color: var(--foreground);
   background: #F8B6CB;
-background: linear-gradient(2700deg,rgba(248, 182, 203, 1) 0%, rgba(198, 164, 250, 1) 33%, rgba(193, 162, 255, 1) 67%, rgba(244, 217, 122, 1) 100%);
+background: linear-gradient(2700deg,rgba(248, 182, 203, 1) 0%, rgba(193, 162, 255, 1) 50%, rgba(244, 217, 122, 1) 100%);
 
 }
  
