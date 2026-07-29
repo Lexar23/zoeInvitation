@@ -1,6 +1,8 @@
 import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import EventDetails from "@/components/EventDetails";
+import EventLocation from "@/components/EventLocation";
+import GiftRegistry from "@/components/GiftRegistry";
 import Countdown from "@/components/Countdown";
 import RsvpForm from "@/components/RsvpForm";
 import Footer from "@/components/Footer";
@@ -14,6 +16,8 @@ export default function Home() {
       <Countdown />
       <Welcome />
       <EventDetails />
+      <EventLocation />
+      <GiftRegistry />
       <RsvpForm />
       <Footer />
     </main>

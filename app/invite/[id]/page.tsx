@@ -4,6 +4,8 @@ import path from "path";
 import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import EventDetails from "@/components/EventDetails";
+import EventLocation from "@/components/EventLocation";
+import GiftRegistry from "@/components/GiftRegistry";
 import Countdown from "@/components/Countdown";
 import RsvpForm from "@/components/RsvpForm";
 import Footer from "@/components/Footer";
@@ -35,6 +37,8 @@ export default async function InvitePage({ params }: { params: { id: string } })
       <Hero />
       <Welcome />
       <EventDetails />
+      <EventLocation />
+      <GiftRegistry />
       <Countdown />
       <RsvpForm guest={guest} />
       <Footer />

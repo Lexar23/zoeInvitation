@@ -21,7 +21,7 @@ export default function RsvpForm({ guest }: RsvpFormProps) {
   };
 
   return (
-    <section className="py-24 px-6 text-center">
+    <section className="py-10 px-6 text-center">
       <div className="max-w-2xl mx-auto">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
