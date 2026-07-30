@@ -9,6 +9,9 @@ const howellAlt = Great_Vibes({ weight: "400", subsets: ["latin"], variable: "--
 export const metadata: Metadata = {
   title: "Invitación Baby Shower",
   description: "Te invitamos a celebrar con nosotros.",
+  icons: {
+    icon: '/pinkRibbon.webp',
+  },
 };
 
 export default function RootLayout({
