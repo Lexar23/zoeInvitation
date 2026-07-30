@@ -28,7 +28,7 @@ export default function GiftRegistry() {
           </div>
           
           <h2 className="text-3xl font-serif text-rose-900 mb-4">
-            Mesa de Regalos
+            Sugerencia de Regalos
           </h2>
           
           <p className="text-stone-700 mb-8 font-light text-lg">
@@ -39,7 +39,7 @@ export default function GiftRegistry() {
             onClick={handleWhatsApp}
             className="inline-flex items-center justify-center gap-3 bg-rose-500 hover:bg-rose-600 text-white px-6 py-3 rounded-full font-medium tracking-wide transition-all hover:scale-105 active:scale-95 shadow-md shadow-rose-200"
           >
-            Pregúntame cuáles aún están disponibles
+            Elegir un regalito
             <MessageCircle className="w-5 h-5" />
           </button>
         </motion.div>
