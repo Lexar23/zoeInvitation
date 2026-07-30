@@ -1,5 +1,4 @@
 "use client";
-
 import { INVITATION_CONFIG } from "@/config/invitation";
 import { motion } from "framer-motion";
 import { Gift, MessageCircle } from "lucide-react";
@@ -8,7 +7,7 @@ export default function GiftRegistry() {
   if (!INVITATION_CONFIG.giftRegistry) return null;
 
   const handleWhatsApp = () => {
-    const text = `¡Hola! Quisiera saber qué regalos aún están disponibles para el Baby Shower de ${INVITATION_CONFIG.babyName}.`;
+    const text = `¡Hola! Ya vi la invitación de la pequeña Zoe.¿Me comparten la lista de sugerencias que tienen como guía? ¡Muchas gracias!`;
     const url = `https://wa.me/${INVITATION_CONFIG.whatsappNumber}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
   };
@@ -39,7 +38,7 @@ export default function GiftRegistry() {
             onClick={handleWhatsApp}
             className="inline-flex items-center justify-center gap-3 bg-rose-500 hover:bg-rose-600 text-white px-6 py-3 rounded-full font-medium tracking-wide transition-all hover:scale-105 active:scale-95 shadow-md shadow-rose-200"
           >
-            Elegir un regalito
+            Elegir un regalito para Zoe
             <MessageCircle className="w-5 h-5" />
           </button>
         </motion.div>

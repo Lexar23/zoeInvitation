@@ -4,7 +4,7 @@ export const INVITATION_CONFIG = {
   eventTime: "03:30 PM",
   location: "Danzoria, Estudio de baile, Mall Zona centro",
   dressCode: "Colores pastel (Opcional)",
-  giftRegistry: "Dejamos por aqui una lista de articulos prioritarios que aún nos faltan por si deseas usar la guia, recordando que cualquier obsequio es bienvenido.",
+  giftRegistry: "Dejamos por aquí una lista de artículos prioritarios que aún nos faltan por si deseas usar la guía, recordando que cualquier obsequio es bienvenido.",
   heroMessage: "Te invitamos a celebrar la llegada de nuestra pequeña",
   welcomeMessage: "Cada patadita nos llena de amor y queremos compartir esta hermosa espera contigo.",
   footerMessage: "¡Esperamos contar con tu presencia en este día tan especial!",

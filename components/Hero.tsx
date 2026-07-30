@@ -12,7 +12,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-lg md:text-2xl font-light text-rose-800 mb-4 tracking-wide uppercase">
+          className="text-lg md:text-2xl font-light text-rose-800 mb-4 tracking-wide uppercase my-2">
           {INVITATION_CONFIG.heroMessage}
         </motion.h2>
         
